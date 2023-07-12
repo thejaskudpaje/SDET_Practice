@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-12T12:48:23 IST" name="Default suite" finished-at="2023-07-12T12:51:36 IST" duration-ms="192880">
+    <groups>
+    </groups>
+    <test started-at="2023-07-12T12:48:23 IST" name="Default test" finished-at="2023-07-12T12:51:36 IST" duration-ms="192880">
+      <class name="Com.Practice.Testscripts.LoginToSupplyChain">
+        <test-method signature="loginAsAdminTest()[pri:0, instance:Com.Practice.Testscripts.LoginToSupplyChain@481a996b]" started-at="2023-07-12T12:48:23 IST" name="loginAsAdminTest" finished-at="2023-07-12T12:51:36 IST" duration-ms="192819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsAdminTest -->
+      </class> <!-- Com.Practice.Testscripts.LoginToSupplyChain -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
