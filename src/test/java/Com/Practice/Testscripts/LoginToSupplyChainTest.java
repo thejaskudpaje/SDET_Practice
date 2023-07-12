@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
-public class LoginToSupplyChain {
+public class LoginToSupplyChainTest {
 //@Parameters("BROWSER")
 @Test
 public void loginAsAdminTest() {
