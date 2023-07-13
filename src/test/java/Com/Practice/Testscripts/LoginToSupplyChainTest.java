@@ -10,15 +10,31 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class LoginToSupplyChainTest {
+	static {
+		WebDriverManager.chromedriver().setup();
+		
+	}
+	WebDriver driver=new ChromeDriver();
+
 //@Parameters("BROWSER")
 @Test
-public void loginAsAdminTest() {
+public void openFacebookTest() {
 	
-	WebDriverManager.chromedriver().setup();
-	WebDriver driver=new ChromeDriver();
+	
 	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	//driver.get("http://rmgtestingserver/domain/Supply_Chain_Management/");
 	driver.get("https://www.facebook.com/login/");
+	
+}
+@Test
+public void openInstagramTest() {
+	driver.manage().window().maximize();
+	driver.get("https://www.instagram.com/login/");
+	
+}
+@Test
+public void openFlipkartTest() {
+	driver.manage().window().maximize();
+	driver.get("https://www.flipkart.com/login/");
+	driver.close();
 }
 }
