@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.Practice.Testscripts.LoginToSupplyChain">
+      <class name="Com.Practice.Testscripts.LoginToSupplyChainTest">
         <methods>
-          <include name="loginAsAdminTest"/>
+          <include name="openInstagramTest"/>
         </methods>
-      </class> <!-- Com.Practice.Testscripts.LoginToSupplyChain -->
+      </class> <!-- Com.Practice.Testscripts.LoginToSupplyChainTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

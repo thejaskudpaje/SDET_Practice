@@ -23,18 +23,19 @@ public void openFacebookTest() {
 	
 	driver.manage().window().maximize();
 	driver.get("https://www.facebook.com/login/");
-	
+	System.out.println("welocome to facebook");
 }
 @Test
 public void openInstagramTest() {
 	driver.manage().window().maximize();
 	driver.get("https://www.instagram.com/login/");
-	
+	System.out.println("welocome to Instagram");
 }
 @Test
 public void openFlipkartTest() {
 	driver.manage().window().maximize();
 	driver.get("https://www.flipkart.com/login/");
+	System.out.println("welocome to flipkart");
 	driver.close();
 }
 }

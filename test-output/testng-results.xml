@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-12T12:48:23 IST" name="Default suite" finished-at="2023-07-12T12:51:36 IST" duration-ms="192880">
+  <suite started-at="2023-07-13T10:47:11 IST" name="Default suite" finished-at="2023-07-13T10:47:25 IST" duration-ms="13840">
     <groups>
     </groups>
-    <test started-at="2023-07-12T12:48:23 IST" name="Default test" finished-at="2023-07-12T12:51:36 IST" duration-ms="192880">
-      <class name="Com.Practice.Testscripts.LoginToSupplyChain">
-        <test-method signature="loginAsAdminTest()[pri:0, instance:Com.Practice.Testscripts.LoginToSupplyChain@481a996b]" started-at="2023-07-12T12:48:23 IST" name="loginAsAdminTest" finished-at="2023-07-12T12:51:36 IST" duration-ms="192819" status="PASS">
+    <test started-at="2023-07-13T10:47:11 IST" name="Default test" finished-at="2023-07-13T10:47:25 IST" duration-ms="13840">
+      <class name="Com.Practice.Testscripts.LoginToSupplyChainTest">
+        <test-method signature="openFacebookTest()[pri:0, instance:Com.Practice.Testscripts.LoginToSupplyChainTest@1e886a5b]" started-at="2023-07-13T10:47:12 IST" name="openFacebookTest" finished-at="2023-07-13T10:47:16 IST" duration-ms="4864" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginAsAdminTest -->
-      </class> <!-- Com.Practice.Testscripts.LoginToSupplyChain -->
+        </test-method> <!-- openFacebookTest -->
+        <test-method signature="openFlipkartTest()[pri:0, instance:Com.Practice.Testscripts.LoginToSupplyChainTest@1e886a5b]" started-at="2023-07-13T10:47:17 IST" name="openFlipkartTest" finished-at="2023-07-13T10:47:22 IST" duration-ms="5040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFlipkartTest -->
+        <test-method signature="openInstagramTest()[pri:0, instance:Com.Practice.Testscripts.LoginToSupplyChainTest@1e886a5b]" started-at="2023-07-13T10:47:22 IST" name="openInstagramTest" finished-at="2023-07-13T10:47:25 IST" duration-ms="3723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInstagramTest -->
+      </class> <!-- Com.Practice.Testscripts.LoginToSupplyChainTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
